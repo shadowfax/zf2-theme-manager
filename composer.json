@@ -1,0 +1,23 @@
+{
+    "name": "shadowfax/zf2-theme-manager",
+    "type": "library",
+    "description": "Theme Manager for ZF2",
+    "keywords": [
+    	"asset",
+    	"theme"
+    ],
+    "homepage": "https://github.com/shadowfax/zf2-theme-manager",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.2.*",
+        "shadowfax/zf2-asset-manager": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "ThemeManager\\": "src/" },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
